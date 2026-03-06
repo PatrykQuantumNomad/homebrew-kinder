@@ -3,7 +3,7 @@ cask "kinder" do
   name "kinder"
   desc "kind, but with everything you actually need."
   homepage "https://kinder.patrykgolabek.dev"
-  version "1.2"
+  version "1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kinder" do
   on_macos do
     on_intel do
       url "https://github.com/PatrykQuantumNomad/kinder/releases/download/v#{version}/kinder_#{version}_darwin_amd64.tar.gz"
-      sha256 "866253bd2c0c72e2d6561382ecdd63063ef200a885f3907ad290edba87cec9b0"
+      sha256 "0e75238310d34b56654365cbc1e4c14274fb8d323f510b5e19c09f62506e278c"
     end
     on_arm do
       url "https://github.com/PatrykQuantumNomad/kinder/releases/download/v#{version}/kinder_#{version}_darwin_arm64.tar.gz"
-      sha256 "09a3c4283e6252e005cbfa227fb3d83b4776aeb605ff29895b3c3167563f81da"
+      sha256 "7c1d3b6fda586252fb1ab1f6404fb18c055a34dca2c1b6c0bfab2e93318fdeb1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/PatrykQuantumNomad/kinder/releases/download/v#{version}/kinder_#{version}_linux_amd64.tar.gz"
-      sha256 "27b6a115df1e4b48894541ba794abfca15592a9c0244d66ae3a0ed853c573f5f"
+      sha256 "0697d2f5706ab81b2a1bb7430c7844cac2956127e703b36f354a7bb3ea894443"
     end
     on_arm do
       url "https://github.com/PatrykQuantumNomad/kinder/releases/download/v#{version}/kinder_#{version}_linux_arm64.tar.gz"
-      sha256 "cc6b1f72c09ea1a1f066751a85713e171c2de72f15235f1d3690d00b105571a6"
+      sha256 "2313b378d61acad750cf20729d18c0285e0e37d9043198811dfcaa5fbe19975c"
     end
   end
 
