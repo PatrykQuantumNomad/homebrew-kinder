@@ -4,22 +4,22 @@ cask "kinder" do
 
   on_macos do
     on_intel do
-      sha256 "0bf403ac443d9eea7ad3affcd7d1a2a91ceabaa19e007552df08d793aabd4183"
+      sha256 "b3afd5de3e003145fdc30f88e0cde682952c1d83db4d463e885a3e2b78690299"
       url "https://github.com/PatrykQuantumNomad/kinder/releases/download/v#{version}/kinder_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "215cc8fe797d9545a61c10955d0d0bfe18f0d6048337decab9078af65c6e905f"
+      sha256 "7a8d58fc30a8a94896c7af0c0af22c60d93e43753ce942e3826599332afeae0b"
       url "https://github.com/PatrykQuantumNomad/kinder/releases/download/v#{version}/kinder_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "08382a00a0964e1599fbfee7a6f4f97d0dd89be98350ece0a930bc803a52465e"
+      sha256 "2b1c206273707ca9952917c0c15a0a57c892cd6f5dabada53473541f8018343e"
       url "https://github.com/PatrykQuantumNomad/kinder/releases/download/v#{version}/kinder_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "4c1257b29f9cc7015ce162b92f82f09e60536c088e4a6dc6f4db6c422bcef1b8"
+      sha256 "13a550b4a3233e508630328ac56deb91d49952ee7b9b5dee84c2b1dc54fef2aa"
       url "https://github.com/PatrykQuantumNomad/kinder/releases/download/v#{version}/kinder_#{version}_linux_arm64.tar.gz"
     end
   end
